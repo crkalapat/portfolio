@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Roboto Flex Regular";
+    src: url("../fonts/RobotoFlex-Regular.ttf");
+}
+
+html {
+    font-family: "Roboto Flex Regular", Arial, Helvetica, sans-serif;
+}
