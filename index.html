@@ -12,7 +12,7 @@
         
         <div class="row">
             <div class="container-sm" id="content">
-                <div id="header" class="d-flex flex-column justify-content-center align-items-center" style="margin-top: 75px">
+                <div id="header" class="d-flex flex-column justify-content-center align-items-center" style="margin-top: 5%">
                     <h1 class="title">Charlie Kalapati</h1>
                     <h3>Maker Portfolio</h3>
                 </div>
@@ -21,40 +21,69 @@
         <div class="row mt-5">
             <div id="introduction">
                 <p> Hi! My name's Charlie. Thanks for coming to check out my maker portfolio. I've included 3 projects here (4 if you count this website) that I personally am proud of and I think are cool. Hopefully they can give you
-                    a better sense of the kinds of things that I make!
-                    Without further ado, enjoy!
+                    a better sense of the kinds of things that I make, and without further ado, enjoy!
                 </p>
             </div>
         </div>
-        <div class="row mt-5">
-            <div class="col"></div>
-            <div class="col">
-                <img src="images/et_final.jpeg" class="image" alt="El Torito Sculpture">
-                <h1 class="mt-4" style="text-align: center">El Torito</h1>
-            </div>
-            <div class="col">
-                <img src="images/dk_final.jpeg" class="image" alt="Door Knob CAD">
-                <h1 class="mt-4" style="text-align: center">Smart Door Knob</h1>
-            </div>
-            <div class="col">
-                <img src="images/sb_proto3.png" class="image" alt="Letterboard">
-                <h1 class="mt-4" style="text-align: center">iPad Letterboard</h1>
-            </div>
-            <div class="col"></div>
-        </div>
-        
-        <div class="row mt-5">
-            <div class="footer">
-                <div style="margin-right: 20px">
-                    <p style="color:gray">Made with&nbsp;
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-heart-fill" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
-                        </svg>
-                        &nbsp;by Charlie Kalapati</p>
+        <div class="content mt-4">
+            <div class="content-container">
+                <div class="image-container">
+                    <img src="images/et_final.jpeg" class="image1" alt="El Torito Sculpture">
                 </div>
+                <h1 class="mt-4 proj-title" style="text-align: center">El Torito</h1>
+                <p>El Torito (meaning "the bull" in English) was the byproduct of me and my grandpa collaborating to make art. 
+                    Originally my grandpa had made the sculpture out of bronze by hand at a small scale, but he wanted it to be much bigger.
+                    So, I worked with him and designed the sculpture using Autodesk Fusion CAD software. The CAD ended up being enough for
+                    him to submit the design to art contests, and it was chosen for the Green Bay Rotating Arts Program in 2022. With the money
+                    received from that, we got the chance to make the CAD full-scale out of metal, and showcase it in Green Bay, WI.
+                </p>
+                <img src="images/et_cad.png" class="image2 mt-2" alt="El Torito CAD">
+                <p class="mt-3" style="color: gray">The final El Torito CAD</p>
+                <img src="images/et_original.jpeg" class="image2 mt-5" alt="El Torito Original">
+                <p class="mt-3 mb-5" style="color: gray">My grandpa's original sculpture</p>
+            </div>
+            <div class="content-container">
+                <div class="image-container">
+                    <img src="images/dk_final.jpeg" class="image1" alt="Smart Door Knob">
+                </div>
+                <h1 class="mt-4 proj-title" style="text-align: center">Smart Door Knob</h1>
+                <p>Unlike other smart door locks which you might find on Amazon or elsewhere, this door <em>knob</em> is designed to fit a typical
+                    bedroom door (to keep siblings out of course). I designed the whole fixture in CAD to be small, lightweight, and 3D-printable, so that it could fit
+                    on a typical door inside a home. In addition, I also made a custom PCB that integrates a servo motor, buttons, and wireless communications
+                    so that the door knob can be unlocked manually with button input, or through Amazon Alexa, or even through my phone!
+                </p>
+                <img src="images/dk_cad.png" class="image2 mt-2" alt="Door Knob CAD">
+                <p class="mt-3" style="color: gray">A cross section of the Door Knob CAD</p>
+                <img src="images/dk_pcb.jpeg" class="image2 mt-3" style="height: 425px" alt="Door Knob PCB">
+                <p class="mt-3 mb-5" style="color: gray">The Door Knob PCB and electronics</p>
+            </div>
+            <div class="content-container">
+                <div class="image-container">
+                    <img src="images/sb_proto3.png" class="image1" alt="Letterboard">
+                </div>
+                <h1 class="mt-4 proj-title" style="text-align: center">iPad Letterboard</h1>
+                <p>The iPad Letterboard app that I made was designed to be compatible with my little brother's spelling board that he uses to spell to 
+                    communicate. The app was primarily designed to be used with his actual physical letterboard (pictured above on top of the iPad), so
+                    that he could receive physical feedback whenever he was interacting with it. The app also made it so that tapping through the letterboard 
+                    with a touch-screen compatible pencil would record the letter that he hit, so that the person he wants to communicate with could read
+                    what he was trying to spell.
+                </p>
+                <img src="images/sb_proto2.jpeg" class="image2 mt-2" alt="Letterboard Prototype">
+                <p class="mt-3" style="color: gray">Visualizing all the touch areas with colors</p>
+                <img src="images/sb_proto1.jpeg" class="image2 mt-5" style="height: 270px" alt="Door Knob CAD">
+                <p class="mt-3 mb-5" style="color: gray">An early sketch of all the letters and their touch areas</p>
             </div>
         </div>
-       
+
+        <div class="footer">
+            <div>
+                <p style="color:gray">Made with&nbsp;
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                    </svg>
+                    &nbsp;by Charlie Kalapati</p>
+            </div>
+        </div>
             
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
